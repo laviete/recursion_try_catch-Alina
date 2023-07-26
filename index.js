@@ -21,7 +21,7 @@ const calcFactorialRecursion = (number) => {
     return number === 0n ? 1n : number * calcFactorialRecursion(number - 1n);
   }
   /* або замінити останні 2 умови одним рядком
-  return number === 0 || number === 0n ? 1n : number * calcFactorial(number - 1n);
+  return number === 0 || number === 0n ? 1n : number * calcFactorialRecursion(number - 1n);
   */
 };
 try {
